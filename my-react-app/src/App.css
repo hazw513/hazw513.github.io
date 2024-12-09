@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: 'Futura';
+  src: url('./assets/fonts/Futura.woff2') format('woff2'),
+       url('./assets/fonts/Futura.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-futura {
+  font-family: 'Futura', sans-serif;
+}
+
+.nav-bar{
+    background-color: #000;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    border-bottom: 1px solid #ccc;
+}
